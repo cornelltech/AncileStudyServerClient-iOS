@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AncileStudyServerClient_Example' do
+  pod 'AncileStudyServerClient', :path => '../'
+
+  target 'AncileStudyServerClient_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

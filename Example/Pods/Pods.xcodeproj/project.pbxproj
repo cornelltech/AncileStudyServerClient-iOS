@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		477BD907EA6257B13D13CA2A8499317C /* Pods-AncileStudyServerClient_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 249A1FD84E75AF86EF356DF42B035CF0 /* Pods-AncileStudyServerClient_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65EEFF93CE28B745A843C0F3A7B3F8D8 /* AncileStudyServerClient-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5BF6920EA18860D64F4F000A35D2409 /* AncileStudyServerClient-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6629E1212A5833274BC8117D72E649C1 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BDE0D4C50209C18CB429A72BED5CC6 /* ReplaceMe.swift */; };
+		891CACB043AF888DF8834280BB67A3CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BA5A2AFD77A2FAD2D2E4CEAF77B87478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		BBA5B5612FA64E9CBB46E26127FBF0B6 /* Pods-AncileStudyServerClient_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC778C458227B845C9C121ACDE1895 /* Pods-AncileStudyServerClient_Tests-dummy.m */; };
+		C1D4CD92651CEB28066AB881F36612A4 /* Pods-AncileStudyServerClient_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F7E65FE2A589E6A3E271B0BB77E344 /* Pods-AncileStudyServerClient_Example-dummy.m */; };
+		C7B722395E7CB48497233A3F8A9915B9 /* Pods-AncileStudyServerClient_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 31D54881162274BF52FE5C4E5917F76F /* Pods-AncileStudyServerClient_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3BB8E83061F08753C25AEFCD115D4D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		FF4EA1163395A1C77B9528CB2B2BCCBC /* AncileStudyServerClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7540F04F70DFEC4C7EC4A25334C559C7 /* AncileStudyServerClient-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DA7A849007ED6F1A4A1EEA8AD020044 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A8894ECE9262F5C73710E5AB2B27110;
+			remoteInfo = AncileStudyServerClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		091FFD2DEEB0FF0E19583DDD07721FD7 /* Pods-AncileStudyServerClient_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AncileStudyServerClient_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0BD5E44CE8AA3FACB9D48A3E1F36D87A /* Pods-AncileStudyServerClient_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AncileStudyServerClient_Tests.modulemap"; sourceTree = "<group>"; };
+		0E39B0C197C4EEAA799C1D3F0CE38310 /* Pods-AncileStudyServerClient_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AncileStudyServerClient_Example.modulemap"; sourceTree = "<group>"; };
+		249A1FD84E75AF86EF356DF42B035CF0 /* Pods-AncileStudyServerClient_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AncileStudyServerClient_Example-umbrella.h"; sourceTree = "<group>"; };
+		282F50D6C58AE8DB2D3377C85FF42839 /* Pods-AncileStudyServerClient_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AncileStudyServerClient_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2FC6C80212AB2F63565D966109F56314 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31D54881162274BF52FE5C4E5917F76F /* Pods-AncileStudyServerClient_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AncileStudyServerClient_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4B4CF13DCB303D2EB606B50A8EECB52D /* AncileStudyServerClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AncileStudyServerClient.framework; path = AncileStudyServerClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA17552E2264B340D12CBBE444A1A18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59A2A2B09ED56F53323E05C524558D1D /* Pods-AncileStudyServerClient_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AncileStudyServerClient_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		60247261A47B7278588021A14E65A9A6 /* Pods-AncileStudyServerClient_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AncileStudyServerClient_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		60C793F4933ED72B1F0B30CAE6F419F3 /* AncileStudyServerClient.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AncileStudyServerClient.xcconfig; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66F8E0FF0DC6CEBCC6E97B91B1E60741 /* Pods-AncileStudyServerClient_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AncileStudyServerClient_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7540F04F70DFEC4C7EC4A25334C559C7 /* AncileStudyServerClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AncileStudyServerClient-dummy.m"; sourceTree = "<group>"; };
+		830D8A6EDB443CDF7AE7BC43250F5D33 /* Pods-AncileStudyServerClient_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AncileStudyServerClient_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8AC25DEEDBD45408E1AFDB39765C480C /* Pods_AncileStudyServerClient_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AncileStudyServerClient_Example.framework; path = "Pods-AncileStudyServerClient_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ECC778C458227B845C9C121ACDE1895 /* Pods-AncileStudyServerClient_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AncileStudyServerClient_Tests-dummy.m"; sourceTree = "<group>"; };
+		90ED611BEDB3C80570085D645C769E60 /* Pods-AncileStudyServerClient_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AncileStudyServerClient_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F42A68E5043F19476B1C4749B7BF2BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A225B608B51A6DCDB8E386003AD87829 /* Pods-AncileStudyServerClient_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AncileStudyServerClient_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A434D3DC780B96B37D96F3957D1F3B0A /* AncileStudyServerClient-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AncileStudyServerClient-prefix.pch"; sourceTree = "<group>"; };
+		A5BDE0D4C50209C18CB429A72BED5CC6 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		B9CD3F5BC42808BF9141DCC637045550 /* Pods-AncileStudyServerClient_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AncileStudyServerClient_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C308F6521EC56D224695D9B1CD194501 /* Pods-AncileStudyServerClient_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AncileStudyServerClient_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C7C9739C728352FB30AD73699A9D755D /* Pods_AncileStudyServerClient_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AncileStudyServerClient_Tests.framework; path = "Pods-AncileStudyServerClient_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F7E65FE2A589E6A3E271B0BB77E344 /* Pods-AncileStudyServerClient_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AncileStudyServerClient_Example-dummy.m"; sourceTree = "<group>"; };
+		D41AFCB0CC36DAB3A0AA53B68E8FBC71 /* Pods-AncileStudyServerClient_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AncileStudyServerClient_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E05C1B9E8A7D1BF5ECAA321024222AC2 /* AncileStudyServerClient.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AncileStudyServerClient.modulemap; sourceTree = "<group>"; };
+		E5BF6920EA18860D64F4F000A35D2409 /* AncileStudyServerClient-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AncileStudyServerClient-umbrella.h"; sourceTree = "<group>"; };
+		E6336CC825E7A1502AF43EE4669B2336 /* Pods-AncileStudyServerClient_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AncileStudyServerClient_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4617A783DDFEF9F8DF5B9CDC40284745 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5A2AFD77A2FAD2D2E4CEAF77B87478 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E4A4BBA472C6A717330063975538AA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				891CACB043AF888DF8834280BB67A3CB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904538376B7DCE8CDF8318439E247259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BB8E83061F08753C25AEFCD115D4D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03445BDD831691BDF3653002F74448A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E05C1B9E8A7D1BF5ECAA321024222AC2 /* AncileStudyServerClient.modulemap */,
+				60C793F4933ED72B1F0B30CAE6F419F3 /* AncileStudyServerClient.xcconfig */,
+				7540F04F70DFEC4C7EC4A25334C559C7 /* AncileStudyServerClient-dummy.m */,
+				A434D3DC780B96B37D96F3957D1F3B0A /* AncileStudyServerClient-prefix.pch */,
+				E5BF6920EA18860D64F4F000A35D2409 /* AncileStudyServerClient-umbrella.h */,
+				9F42A68E5043F19476B1C4749B7BF2BD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AncileStudyServerClient";
+			sourceTree = "<group>";
+		};
+		13D641184B001FCECA1BB781DA8C91B2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1E0437F084CD507EA9B93ABED026DE2 /* Pods-AncileStudyServerClient_Example */,
+				EC914A8319C1D9FDC315BB045F986CB5 /* Pods-AncileStudyServerClient_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6ABF50FF15DED821CD94BB36F5011CC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B4CF13DCB303D2EB606B50A8EECB52D /* AncileStudyServerClient.framework */,
+				8AC25DEEDBD45408E1AFDB39765C480C /* Pods_AncileStudyServerClient_Example.framework */,
+				C7C9739C728352FB30AD73699A9D755D /* Pods_AncileStudyServerClient_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FF7CC73D7D5419BD8CC7E542AB11FF3 /* AncileStudyServerClient */ = {
+			isa = PBXGroup;
+			children = (
+				D46A0DE235C44DAF9B17176AEF4AFA05 /* Classes */,
+			);
+			name = AncileStudyServerClient;
+			path = AncileStudyServerClient;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A92BAFDF985DA4A8116689A337B47CB3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6ABF50FF15DED821CD94BB36F5011CC2 /* Products */,
+				13D641184B001FCECA1BB781DA8C91B2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9B24952054167F642EAD587464325987 /* AncileStudyServerClient */ = {
+			isa = PBXGroup;
+			children = (
+				6FF7CC73D7D5419BD8CC7E542AB11FF3 /* AncileStudyServerClient */,
+				03445BDD831691BDF3653002F74448A1 /* Support Files */,
+			);
+			name = AncileStudyServerClient;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A92BAFDF985DA4A8116689A337B47CB3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B24952054167F642EAD587464325987 /* AncileStudyServerClient */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D46A0DE235C44DAF9B17176AEF4AFA05 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A5BDE0D4C50209C18CB429A72BED5CC6 /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E1E0437F084CD507EA9B93ABED026DE2 /* Pods-AncileStudyServerClient_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4EA17552E2264B340D12CBBE444A1A18 /* Info.plist */,
+				0E39B0C197C4EEAA799C1D3F0CE38310 /* Pods-AncileStudyServerClient_Example.modulemap */,
+				B9CD3F5BC42808BF9141DCC637045550 /* Pods-AncileStudyServerClient_Example-acknowledgements.markdown */,
+				830D8A6EDB443CDF7AE7BC43250F5D33 /* Pods-AncileStudyServerClient_Example-acknowledgements.plist */,
+				C9F7E65FE2A589E6A3E271B0BB77E344 /* Pods-AncileStudyServerClient_Example-dummy.m */,
+				282F50D6C58AE8DB2D3377C85FF42839 /* Pods-AncileStudyServerClient_Example-frameworks.sh */,
+				90ED611BEDB3C80570085D645C769E60 /* Pods-AncileStudyServerClient_Example-resources.sh */,
+				249A1FD84E75AF86EF356DF42B035CF0 /* Pods-AncileStudyServerClient_Example-umbrella.h */,
+				60247261A47B7278588021A14E65A9A6 /* Pods-AncileStudyServerClient_Example.debug.xcconfig */,
+				C308F6521EC56D224695D9B1CD194501 /* Pods-AncileStudyServerClient_Example.release.xcconfig */,
+			);
+			name = "Pods-AncileStudyServerClient_Example";
+			path = "Target Support Files/Pods-AncileStudyServerClient_Example";
+			sourceTree = "<group>";
+		};
+		EC914A8319C1D9FDC315BB045F986CB5 /* Pods-AncileStudyServerClient_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC6C80212AB2F63565D966109F56314 /* Info.plist */,
+				0BD5E44CE8AA3FACB9D48A3E1F36D87A /* Pods-AncileStudyServerClient_Tests.modulemap */,
+				D41AFCB0CC36DAB3A0AA53B68E8FBC71 /* Pods-AncileStudyServerClient_Tests-acknowledgements.markdown */,
+				66F8E0FF0DC6CEBCC6E97B91B1E60741 /* Pods-AncileStudyServerClient_Tests-acknowledgements.plist */,
+				8ECC778C458227B845C9C121ACDE1895 /* Pods-AncileStudyServerClient_Tests-dummy.m */,
+				A225B608B51A6DCDB8E386003AD87829 /* Pods-AncileStudyServerClient_Tests-frameworks.sh */,
+				E6336CC825E7A1502AF43EE4669B2336 /* Pods-AncileStudyServerClient_Tests-resources.sh */,
+				31D54881162274BF52FE5C4E5917F76F /* Pods-AncileStudyServerClient_Tests-umbrella.h */,
+				59A2A2B09ED56F53323E05C524558D1D /* Pods-AncileStudyServerClient_Tests.debug.xcconfig */,
+				091FFD2DEEB0FF0E19583DDD07721FD7 /* Pods-AncileStudyServerClient_Tests.release.xcconfig */,
+			);
+			name = "Pods-AncileStudyServerClient_Tests";
+			path = "Target Support Files/Pods-AncileStudyServerClient_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69F2FB811E3F17E7B28CEACBB098B59F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B722395E7CB48497233A3F8A9915B9 /* Pods-AncileStudyServerClient_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B6F67F8E9BD245A9D9161CF9A9B9E3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EEFF93CE28B745A843C0F3A7B3F8D8 /* AncileStudyServerClient-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0F91BAA7977BE715A79B9BE6FF9BC38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477BD907EA6257B13D13CA2A8499317C /* Pods-AncileStudyServerClient_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A8894ECE9262F5C73710E5AB2B27110 /* AncileStudyServerClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEAC25F339DF0A341F4E655E6AE9AC2E /* Build configuration list for PBXNativeTarget "AncileStudyServerClient" */;
+			buildPhases = (
+				633D5572ED7CBB30C3CC60C164D42995 /* Sources */,
+				7E4A4BBA472C6A717330063975538AA7 /* Frameworks */,
+				8B6F67F8E9BD245A9D9161CF9A9B9E3B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AncileStudyServerClient;
+			productName = AncileStudyServerClient;
+			productReference = 4B4CF13DCB303D2EB606B50A8EECB52D /* AncileStudyServerClient.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8BB42AECD370F20E96182CBB7B9B037F /* Pods-AncileStudyServerClient_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2513BF8A6735FDFFFAC7E1011219006F /* Build configuration list for PBXNativeTarget "Pods-AncileStudyServerClient_Example" */;
+			buildPhases = (
+				1261C0AA3BBD291A93B0A5439D3D62BF /* Sources */,
+				4617A783DDFEF9F8DF5B9CDC40284745 /* Frameworks */,
+				B0F91BAA7977BE715A79B9BE6FF9BC38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBE87F2C5C96C3447F8445B210BAB112 /* PBXTargetDependency */,
+			);
+			name = "Pods-AncileStudyServerClient_Example";
+			productName = "Pods-AncileStudyServerClient_Example";
+			productReference = 8AC25DEEDBD45408E1AFDB39765C480C /* Pods_AncileStudyServerClient_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A180EC2DBA62BAD2DEFDC1B87139064D /* Pods-AncileStudyServerClient_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A9F48C59809D53801C7621040F19E94 /* Build configuration list for PBXNativeTarget "Pods-AncileStudyServerClient_Tests" */;
+			buildPhases = (
+				5440B837566C5BBF5F8D5CA59BF8EB69 /* Sources */,
+				904538376B7DCE8CDF8318439E247259 /* Frameworks */,
+				69F2FB811E3F17E7B28CEACBB098B59F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AncileStudyServerClient_Tests";
+			productName = "Pods-AncileStudyServerClient_Tests";
+			productReference = C7C9739C728352FB30AD73699A9D755D /* Pods_AncileStudyServerClient_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6ABF50FF15DED821CD94BB36F5011CC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A8894ECE9262F5C73710E5AB2B27110 /* AncileStudyServerClient */,
+				8BB42AECD370F20E96182CBB7B9B037F /* Pods-AncileStudyServerClient_Example */,
+				A180EC2DBA62BAD2DEFDC1B87139064D /* Pods-AncileStudyServerClient_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1261C0AA3BBD291A93B0A5439D3D62BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D4CD92651CEB28066AB881F36612A4 /* Pods-AncileStudyServerClient_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5440B837566C5BBF5F8D5CA59BF8EB69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBA5B5612FA64E9CBB46E26127FBF0B6 /* Pods-AncileStudyServerClient_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		633D5572ED7CBB30C3CC60C164D42995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4EA1163395A1C77B9528CB2B2BCCBC /* AncileStudyServerClient-dummy.m in Sources */,
+				6629E1212A5833274BC8117D72E649C1 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBE87F2C5C96C3447F8445B210BAB112 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AncileStudyServerClient;
+			target = 6A8894ECE9262F5C73710E5AB2B27110 /* AncileStudyServerClient */;
+			targetProxy = 6DA7A849007ED6F1A4A1EEA8AD020044 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2390893E00A6ABA70B94A18874AB7D98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C793F4933ED72B1F0B30CAE6F419F3 /* AncileStudyServerClient.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AncileStudyServerClient/AncileStudyServerClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AncileStudyServerClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AncileStudyServerClient/AncileStudyServerClient.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AncileStudyServerClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6B6D5B1594579A8277BA69FB449856BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C308F6521EC56D224695D9B1CD194501 /* Pods-AncileStudyServerClient_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AncileStudyServerClient_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AncileStudyServerClient_Example/Pods-AncileStudyServerClient_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AncileStudyServerClient_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70015FB72A53D8600D45AC7DB689B91F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C793F4933ED72B1F0B30CAE6F419F3 /* AncileStudyServerClient.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AncileStudyServerClient/AncileStudyServerClient-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AncileStudyServerClient/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AncileStudyServerClient/AncileStudyServerClient.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = AncileStudyServerClient;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DF7CD4F6C5DD4C558B687DF8726D29C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 091FFD2DEEB0FF0E19583DDD07721FD7 /* Pods-AncileStudyServerClient_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AncileStudyServerClient_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AncileStudyServerClient_Tests/Pods-AncileStudyServerClient_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AncileStudyServerClient_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D05B3AE89C0DA4B8B3DA332F749BFD16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A2A2B09ED56F53323E05C524558D1D /* Pods-AncileStudyServerClient_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AncileStudyServerClient_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AncileStudyServerClient_Tests/Pods-AncileStudyServerClient_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AncileStudyServerClient_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DBDC0BAD4B2ACB10C760A9B39AEB96EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60247261A47B7278588021A14E65A9A6 /* Pods-AncileStudyServerClient_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AncileStudyServerClient_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AncileStudyServerClient_Example/Pods-AncileStudyServerClient_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AncileStudyServerClient_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2513BF8A6735FDFFFAC7E1011219006F /* Build configuration list for PBXNativeTarget "Pods-AncileStudyServerClient_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBDC0BAD4B2ACB10C760A9B39AEB96EA /* Debug */,
+				6B6D5B1594579A8277BA69FB449856BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A9F48C59809D53801C7621040F19E94 /* Build configuration list for PBXNativeTarget "Pods-AncileStudyServerClient_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D05B3AE89C0DA4B8B3DA332F749BFD16 /* Debug */,
+				8DF7CD4F6C5DD4C558B687DF8726D29C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEAC25F339DF0A341F4E655E6AE9AC2E /* Build configuration list for PBXNativeTarget "AncileStudyServerClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2390893E00A6ABA70B94A18874AB7D98 /* Debug */,
+				70015FB72A53D8600D45AC7DB689B91F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

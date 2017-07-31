@@ -1,0 +1,16 @@
+PODS:
+  - AncileStudyServerClient (0.1.0)
+
+DEPENDENCIES:
+  - AncileStudyServerClient (from `../`)
+
+EXTERNAL SOURCES:
+  AncileStudyServerClient:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AncileStudyServerClient: df928ade6ff55fcd60b8e858f311b3a76f328ebc
+
+PODFILE CHECKSUM: 6ca5b3bf7e5401b6609f028d587447d15a4c7e64
+
+COCOAPODS: 1.2.1

@@ -247,35 +247,43 @@ open class ANCClient: NSObject {
         self.authToken = nil
     }
     
-    open func postConsent(token: String, completion: @escaping ((Bool, Error?) -> ())) {
+    open func postConsent(token: String, fileName: String, fileURL: URL, completion: @escaping ((Bool, Error?) -> ())) {
         
         let urlString = "\(self.baseURL)/consent"
         
         let headers = ["Authorization": "Token \(token)"]
         
-        let request = Alamofire.request(
-            urlString,
-            method: .post,
-            headers: headers)
-        
-        debugPrint(headers)
-        
-        request.responseJSON(queue: self.dispatchQueue) { (jsonResponse) in
+        let request = Alamofire.upload(multipartFormData: { (multipartFormData) in
             
-            debugPrint(jsonResponse)
-            //check for lower level errors
-            if let error = jsonResponse.result.error as? NSError {
-                if error.code == NSURLErrorNotConnectedToInternet {
-                    completion(false, ANCClientError.unreachableError(underlyingError: error))
-                    return
+            multipartFormData.append(fileURL, withName: "signed_document", fileName: fileName, mimeType: "application/pdf")
+            
+        }, to: urlString, headers: headers) { (encodingResult) in
+            switch encodingResult {
+            case .success(let upload, _, _):
+                
+                debugPrint(upload)
+                debugPrint(upload.request)
+                upload.responseJSON(queue: self.dispatchQueue) { (jsonResponse) in
+                    
+                    debugPrint(jsonResponse)
+                    //check for lower level errors
+                    if let error = jsonResponse.result.error as? NSError {
+                        if error.code == NSURLErrorNotConnectedToInternet {
+                            completion(false, ANCClientError.unreachableError(underlyingError: error))
+                            return
+                        }
+                        else {
+                            completion(false, ANCClientError.otherError(underlyingError: error))
+                            return
+                        }
+                    }
+                    
+                    completion(true, nil)            
                 }
-                else {
-                    completion(false, ANCClientError.otherError(underlyingError: error))
-                    return
-                }
+                
+            case .failure(let encodingError):
+                completion(false, encodingError)
             }
-            
-            completion(true, nil)            
         }
         
     }
